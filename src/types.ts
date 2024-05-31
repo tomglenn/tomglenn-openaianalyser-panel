@@ -1,6 +1,6 @@
-type CircleColor = 'red' | 'green' | 'blue';
+type AnalysisType = 'insights' | 'accessibility' | 'diagnosis';
 
 export interface SimpleOptions {
   apiKey: string;
-  color: CircleColor;
+  analysisType: AnalysisType;
 }
